@@ -8,8 +8,8 @@
 
 #### Gerar networking com as pessoas que também estão participando desse desafio
 
-- Dia 01 - Crie um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código.
-- Dia 02 - Faça um Hello World customizando com fontes, cores e imagens.
+- Dia 01 - ✅ - Crie um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código.
+- Dia 02 - ✅ - Faça um Hello World customizando com fontes, cores e imagens.
 - Dia 03 - Crie um botão animado.
 - Dia 04 - Crie uma calculadora.
 - Dia 05 - Desenvolva uma página customizada que exiba o erro 404.
@@ -29,11 +29,7 @@
 - Dia 19 - Desenvolva um site que gere imagens aleatórias utilizando a API do Unsplash
 - Dia 20 - Desenvolva um site de emoji picker. Ao selecionar o Emoji, ele é copiado para a área de transferencia.
 - Dia 21 - Desenvolva uma página para ser seu portifólio.
-
-#### Conte sobre você.
-
-#### Suas experiências.
-
-#### Suas habilidades.
-
-#### Inclua no portifólio todos os desafios desenvolvidos durante esses 21 dias.
+  - Conte sobre você.
+  - Suas experiências.
+  - Suas habilidades.
+  - Inclua no portifólio todos os desafios desenvolvidos durante esses 21 dias.

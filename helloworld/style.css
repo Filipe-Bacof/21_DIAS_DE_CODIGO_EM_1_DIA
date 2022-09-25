@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  height: 10vh;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 5vh;
+  padding: 2vh;
+  padding-left: 20vh;
+}
+
+section {
+  background-color: rgb(51, 102, 221);
+  height: 80vh;
+}
+
+section h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 5vh;
+  font-weight: bold;
+  padding: 5vh;
+  padding-left: 20vh;
+  animation-name: rainbow-color;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+section div {
+  height: 40vh;
+  background-image: url(./elephant.jpg);
+  background-size: 40vh;
+  max-width: 40vh;
+  height: 28vh;
+  padding: 5vh;
+  margin-left: 20vh;
+  margin-top: 1vh;
+}
+
+footer {
+  background-color: rgb(25, 48, 102);
+  height: 10vh;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+
+  font-size: 3vh;
+  color: #eee;
+  padding: 3vh;
+}
+
+@keyframes rainbow-color {
+  0% {
+    color: red;
+  }
+  12% {
+    color: orange;
+  }
+  25% {
+    color: yellow;
+  }
+  37% {
+    color: green;
+  }
+  50% {
+    color: cyan;
+  }
+  62% {
+    color: blue;
+  }
+  75% {
+    color: violet;
+  }
+  87% {
+    color: purple;
+  }
+  100% {
+    color: red;
+  }
+}
