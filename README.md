@@ -10,7 +10,7 @@
 
 - Dia 01 - ✅ - Crie um repositório para listar os projetos que serão desenvolvidos durante os 21 dias de código.
 - Dia 02 - ✅ - Faça um Hello World customizando com fontes, cores e imagens.
-- Dia 03 - Crie um botão animado.
+- Dia 03 - ✅ - Crie um botão animado.
 - Dia 04 - Crie uma calculadora.
 - Dia 05 - Desenvolva uma página customizada que exiba o erro 404.
 - Dia 06 - Crie um card com o efeito glassmorphism.
