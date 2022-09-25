@@ -1,0 +1,38 @@
+.calculadora {
+  margin-left: 30vh;
+  width: 40vh;
+}
+
+.tela {
+  width: 38vh;
+  height: 8vh;
+  background-color: #444;
+  margin: -2px;
+  font-size: 4.5vh;
+  text-align: end;
+  padding-top: 3vh;
+  padding-right: 2vh;
+  padding-bottom: 2vh;
+  font-weight: 800;
+  font-size: 6vh;
+  color: #fff;
+}
+
+button {
+  width: 10vh;
+  height: 13vh;
+  border: 0.1vh solid #888;
+  background-color: #444;
+  color: #fff;
+  margin: -2px;
+  cursor: pointer;
+  font-size: 5vh;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+button:active {
+  background-color: #111;
+}

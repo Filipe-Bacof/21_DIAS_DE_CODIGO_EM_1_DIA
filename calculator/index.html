@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Calculadora JavaScript</title>
+  </head>
+  <body>
+    <div class="calculadora">
+      <div class="tela">0</div>
+      <div class="row">
+        <button onclick="numeros('7')">7</button>
+        <button onclick="numeros('8')">8</button>
+        <button onclick="numeros('9')">9</button>
+        <button onclick="operator('m')">x</button>
+      </div>
+      <div class="row">
+        <button onclick="numeros('4')">4</button>
+        <button onclick="numeros('5')">5</button>
+        <button onclick="numeros('6')">6</button>
+        <button onclick="operator('d')">÷</button>
+      </div>
+      <div class="row">
+        <button onclick="numeros('1')">1</button>
+        <button onclick="numeros('2')">2</button>
+        <button onclick="numeros('3')">3</button>
+        <button onclick="operator('a')">+</button>
+      </div>
+      <div class="row">
+        <button onclick="numeros('0')">0</button>
+        <button onclick="numeros('.')">.</button>
+        <button onclick="operator('s')">-</button>
+        <button onclick="igual()">=</button>
+      </div>
+    </div>
+  </body>
+</html>
