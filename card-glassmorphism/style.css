@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #0d0d0d;
+  font-weight: bold;
+}
+
+body {
+  background-image: url("./generic_flames.jpg");
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+h1 {
+  margin-bottom: 100px;
+  color: white;
+  margin-top: 50px;
+}
+
+h2 {
+  color: orangered;
+  text-shadow: -2px 2px 1px black;
+}
+
+p {
+  border-top: 1px solid black;
+  padding: 5px;
+}
+
+.card {
+  width: 200px;
+  text-align: center;
+  margin-left: 40%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
