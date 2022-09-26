@@ -13,8 +13,8 @@
 - Dia 03 - ✅ - Crie um botão animado.
 - Dia 04 - 🟥 - Crie uma calculadora.
 - Dia 05 - ✅ - Desenvolva uma página customizada que exiba o erro 404.
-- Dia 06 - Crie um card com o efeito glassmorphism.
-- Dia 07 - Desenvolva um contador. (cronometro)
+- Dia 06 - ✅ - Crie um card com o efeito glassmorphism.
+- Dia 07 - 🟥 - Desenvolva um contador. (cronometro)
 - Dia 08 - Desenvolva um toggle que altere o tema para Claro e Escuro.
 - Dia 09 - Crie uma animação de loading.
 - Dia 10 - Utilize a lib Particle.js do Javascript.
