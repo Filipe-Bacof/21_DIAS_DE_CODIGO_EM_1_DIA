@@ -33,3 +33,26 @@ button {
   height: 6vh;
   width: 30vh;
 }
+
+#texto-justificado {
+  width: 60vh;
+  text-align: justify;
+}
+
+section {
+  display: flex;
+}
+
+nav {
+  margin-right: 3vh;
+}
+
+#idiomas {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-idioma {
+  display: flex;
+  padding: 2px;
+}
