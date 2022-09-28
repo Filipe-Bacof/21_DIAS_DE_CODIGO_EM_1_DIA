@@ -12,9 +12,8 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  margin-right: 5em;
-  margin-left: 5em;
-  margin-top: 2.5em;
+  margin: 2.5em 5em 0em 5em;
+  /* top right bottom left */
   align-items: center;
 }
 
@@ -48,6 +47,7 @@ button {
 
 #informacoes {
   margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
 
 #texto-justificado {
@@ -58,6 +58,7 @@ button {
 section {
   display: flex;
   flex-direction: column;
+  margin-top: 1vh;
 }
 
 nav {
@@ -90,12 +91,20 @@ nav {
 #contatos li {
   list-style-type: none;
   color: rgb(90, 90, 255);
+  display: flex;
+  flex-direction: row;
 }
 
-#contatos li a img {
-  height: 4.5vh;
+.meu-email-clique {
+  color: grey;
 }
 
+#contatos li a img,
 #contatos li img {
   height: 4.5vh;
+}
+
+#informacoes ul li p {
+  padding-top: 0.3em;
+  padding-left: 0.3em;
 }
