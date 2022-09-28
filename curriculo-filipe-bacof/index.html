@@ -1,280 +1,227 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-    <title>Currículo Filipe Bacof</title>
-  </head>
-  <body>
-    <!-- foto de perfil e nome -->
-    <header>
-      <div id="area-da-foto">
-        <div id="foto-de-perfil" onclick="mostrar('inicial')"></div>
-      </div>
-      <nav id="controles">
-        <button class="botao" onclick="mostrar('nascimento')">
-          Data de Nascimento
-        </button>
-        <button class="botao" onclick="mostrar('atualmente')">
-          Onde Moro Atualmente
-        </button>
-        <button class="botao" onclick="mostrar('objetivo')">Objetivo</button>
-        <button class="botao" onclick="mostrar('habilidades')">
-          Habilidades
-        </button>
-        <button class="botao" onclick="mostrar('formacao')">Formação</button>
-        <button class="botao" onclick="mostrar('idiomas')">Idiomas</button>
-        <button class="botao" onclick="mostrar('qualificacoes')">
-          Qualificações
-        </button>
-        <button class="botao" onclick="mostrar('empregoatual')">
-          Emprego Atual
-        </button>
-        <button class="botao" onclick="mostrar('empregosanteriores')">
-          Empregos Anteriores
-        </button>
-        <button class="botao" onclick="mostrar('certificados')">
-          Certificados
-        </button>
-      </nav>
-    </header>
-    <!-- controles na tela e ao lado ficarão as informações -->
-    <section>
-      <div id="informacoes">
-        <h1>Olá, eu sou Filipe Bacof</h1>
-        <h2>Este é um currículo para browser</h2>
-        <h2>Ele é responsivo, pode ser visto no Celular</h2>
-        <h3>Conecte-se comigo agora mesmo:</h3>
-        <ul id="contatos">
-          <li>
-            <a
-              href="https://wa.me/5551994456865?text=Ol%C3%A1%2C+visualizei+o+seu+curr%C3%ADculo+online%2C+ficou+muito+legal%2C+vamos+conversar%3F"
-              target="_blank"
-              ><img src="./assets/icons/icon_whats.png" alt="Whats App"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/filipe.bacof/" target="_blank"
-              ><img src="./assets/icons/icon_instagram.png" alt="Instagram"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/filipe-bacof/" target="_blank"
-              ><img src="./assets/icons/icon_linkedin.png" alt="LinkedIn"
-            /></a>
-          </li>
-          <li>
-            <a href="https://github.com/Filipe-Bacof" target="_blank"
-              ><img src="./assets/icons/icon_github.png" alt="GitHub"
-            /></a>
-          </li>
-          <li onclick="mostrarEmail()" style="cursor: pointer">
-            <img src="./assets/icons/icon_gmail.png" alt="Gmail" />
-            <p class="meu-email-clique">exibir</p>
-            <p class="meu-email" style="display: none">filipebacof@gmail.com</p>
-          </li>
-        </ul>
-      </div>
-      <div class="informações">
-        <div class="card inicial">
-          <h3>As informações aparecem aqui</h3>
-          <p>texto vanilla para quando abrir o site</p>
-          <p>bla bla bla</p>
-        </div>
-        <div class="card nascimento" style="display: none">
-          <h3>
-            Eu nasci no dia 05/01/1998, em uma segunda-feira bastante chuvosa
-          </h3>
-          <img
-            src="./assets/calendario-janeiro-1998.png"
-            alt="Calendário mostrando dia 5 de Janeiro"
-          />
-          <h3>Natural de Porto Alegre, no sul do Brasil, gaúcho de alma!</h3>
-          <img
-            src="./assets/mapa-brasil.png"
-            alt="Mapa mostrando o Rio Grande do Sul em relação ao Brasil"
-          />
-        </div>
-        <div class="card atualmente" style="display: none">
-          <h3>
-            Atualmente estou morando em Sapucaia do Sul, que fica próximo da
-            capital Porto Alegre
-          </h3>
-          <img
-            src="./assets/mapa-sapucaia.png"
-            alt="Mapa mostrando Sapucaia do Sul em relação a Porto Alegre"
-          />
-        </div>
-        <div class="card objetivo" style="display: none">
-          <p id="texto-justificado">
-            Meu maior objetivo é crescer e me desenvolver na área da Tecnologia
-            da Informação, pretendo colocar em prática os conhecimentos
-            adquiridos nos últimos anos de estudo. Sendo assim, quero aprimorar
-            minhas habilidades e me estabilizar profissionalmente.
-          </p>
-        </div>
-        <div class="card habilidades" style="display: none">
-          <ul>
-            <li>Autonomia Cognitiva</li>
-            <li>Aprendizado Rápido</li>
-            <li>Trabalho em Equipe</li>
-            <li>Liderança</li>
-            <li>Responsabilidade</li>
-            <li>Pontualidade</li>
-            <li>Fácil Adaptação com Horários</li>
-            <li>Organização</li>
-            <li>Disciplina</li>
-          </ul>
-        </div>
-        <div class="card formacao" style="display: none">
-          <div class="Unicesumar">
-            <h3>Ensino Superior - Bacharelado em Engenharia de Software</h3>
-            <img src="" alt="logo da Unicesumar" />
-            <h4>Instituição: Unicesumar</h4>
-            <p>Localizado em São Leopoldo - RS</p>
-            <p>Atualmente Cursando 6º Semestre</p>
-            <p>Início em Novembro de 2018</p>
-            <p>Conclusão em Abril de 2024</p>
-          </div>
-          <div class="Coracao-de-Maria">
-            <h3>Ensino Médio e Fundamental</h3>
-            <img src="" alt="logo do Colégio Coração de Maria" />
-            <h4>Instituição: Colégio Coração de Maria</h4>
-            <p>Localizado em Esteio - RS</p>
-            <p>Início em 2004</p>
-            <p>Conclusão em 2014</p>
-          </div>
-        </div>
-        <div class="card idiomas" style="display: none">
-          <ul id="idiomas">
-            <li class="card-idioma">
-              <img src="" alt="icone POR" />
-              <h3>Português</h3>
-              <h4>Nível Fluente Nativo</h4>
-            </li>
-            <li class="card-idioma">
-              <img src="" alt="icone ENG" />
-              <h3>Inglês</h3>
-              <h4>Nível Avançado</h4>
-            </li>
-            <li class="card-idioma">
-              <img src="" alt="icone ESP" />
-              <h3>Espanhol</h3>
-              <h4>Nível Itermediário</h4>
-            </li>
-            <li class="card-idioma">
-              <img src="" alt="icone GER" />
-              <h3>Alemão</h3>
-              <h4>Nível Básico</h4>
-            </li>
-          </ul>
-        </div>
-        <div class="card qualificacoes" style="display: none">
-          <h3>Técnicas:</h3>
-          <ul>
-            <li>Manuseio de Hardware (limpeza / manutenção preventiva)</li>
-            <li>Formatação e Backup</li>
-            <li>
-              Sistemas Operacionais
-              <img src="" alt="windows" />
-              <img src="" alt="linux" />
-            </li>
-            <li>Maquinas Virtuais</li>
-            <li>Edição de Imagem e Vídeo</li>
-          </ul>
-          <h3>Programação:</h3>
-          <ul>
-            <li>Linguagem C (faculdade)</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React.JS</li>
-            <li>React Native</li>
-            <li>Node.JS</li>
-            <li>My SQL</li>
-            <li>GIT</li>
-            <li>GitHub</li>
-          </ul>
-        </div>
-        <div class="card empregoatual" style="display: none">
-          <p>ainda estou sem emprego :/</p>
-        </div>
-        <div class="card empregosanteriores" style="display: none">
-          <ul>
-            <li>
-              <img src="" alt="Logo Datamétrica" />
-              <h3>Datamétrica</h3>
-              <h4>São Leopoldo - RS</h4>
-              <p>Período: Janeiro de 2021 até Abril de 2022</p>
-              <p>Cargo: Operador de Telemarketing</p>
-              <p>Atividades: Atendimento ao cliente, Operação de Sistemas</p>
-            </li>
-            <li>
-              <img src="" alt="Logo Tracktus" />
-              <h3>Tracktus</h3>
-              <h4>Esteio - RS</h4>
-              <p>Período: Fevereiro de 2017 até Janeiro de 2020</p>
-              <p>Cargo: Operador de Sistemas & Suporte de Atendimento</p>
-              <p>
-                Atividades: Atendimento ao cliente, suporte via telefone e
-                e-mail, operação de sistemas de monitoramento, cadastro de
-                informações obtidas de técnicos em campo; Primeiro ano de
-                trabalho no período noturno (escala 12/36) e os outros dois anos
-                realizados no período diurno (escala 5/2)
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div class="card certificados" style="display: none">
-          <ul>
-            <li>
-              <h3>Desenvolvimento com Javascript - B7web</h3>
-              <img
-                src="./assets/certificados/b7web-certificado-javascript_page-0001.jpg"
-                alt="B7web Javascript"
-              />
-            </li>
-            <li>
-              <h3>Amazônia - Kenzie Academy</h3>
-              <img
-                src="./assets/certificados/kenzie-amazonia_page-0001.jpg"
-                alt="B7web Javascript"
-              />
-            </li>
-            <li>
-              <h3>Código da Virada - Kenzie Academy</h3>
-              <img
-                src="./assets/certificados/kenzie-codigo-da-virada_page-0001.jpg"
-                alt="B7web Javascript"
-              />
-            </li>
-            <li>
-              <h3>Maratona da Programação - Kenzie Academy</h3>
-              <img
-                src="./assets/certificados/kenzie-maratona-da-programacao_page-0001.jpg"
-                alt="B7web Javascript"
-              />
-            </li>
-            <li>
-              <h3>Programar para Evoluir - Kenzie Academy</h3>
-              <img
-                src="./assets/certificados/kenzie-programar-para-evoluir_page-0001.jpg"
-                alt="B7web Javascript"
-              />
-            </li>
-            <li>
-              <h3>Arpejos Guitarra Rock - Ozielzinho</h3>
-              <img
-                src="./assets/certificados/certificado-Ozielzinho_page-0001.jpg"
-                alt="B7web Javascript"
-              />
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <footer></footer>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+        <title>Currículo Filipe Bacof</title>
+    </head>
+    <body>
+        <header>
+            <div id="area-da-foto">
+                <div id="foto-de-perfil" onclick="mostrar('inicial')"></div>
+            </div>
+            <nav id="controles">
+                <button class="botao" onclick="mostrar('nascimento')">Data de Nascimento</button>
+                <button class="botao" onclick="mostrar('atualmente')">Onde Moro Atualmente</button>
+                <button class="botao" onclick="mostrar('objetivo')">Objetivo</button>
+                <button class="botao" onclick="mostrar('habilidades')">Habilidades</button>
+                <button class="botao" onclick="mostrar('formacao')">Formação</button>
+                <button class="botao" onclick="mostrar('idiomas')">Idiomas</button>
+                <button class="botao" onclick="mostrar('qualificacoes')">Qualificações</button>
+                <button class="botao" onclick="mostrar('empregoatual')">Emprego Atual</button>
+                <button class="botao" onclick="mostrar('empregosanteriores')">Empregos Anteriores</button>
+                <button class="botao" onclick="mostrar('certificados')">Certificados</button>
+            </nav>
+        </header>
+        <section>
+            <div id="topo">
+                <h1>Olá, eu sou Filipe Bacof</h1>
+                <h2>Bem Vindo ao meu Currículo Online</h2>
+                <ul id="contatos">
+                    <li>
+                        <h3>Contatos:</h3>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5551994456865?text=Ol%C3%A1%2C+visualizei+o+seu+curr%C3%ADculo+online%2C+ficou+muito+legal%2C+vamos+conversar%3F" target="_blank">
+                            <img src="./assets/icons/icon_whats.png" alt="Whats App" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/filipe.bacof/" target="_blank"><img src="./assets/icons/icon_instagram.png" alt="Instagram" /> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/filipe-bacof/" target="_blank"><img src="./assets/icons/icon_linkedin.png" alt="LinkedIn" /></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Filipe-Bacof" target="_blank"><img src="./assets/icons/icon_github.png" alt="GitHub" /></a>
+                    </li>
+                    <li onclick="mostrarEmail()" style="cursor: pointer">
+                        <img src="./assets/icons/icon_gmail.png" alt="Gmail" />
+                        <p class="meu-email-clique">exibir</p>
+                        <p class="meu-email" style="display: none">filipebacof@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="informacoes">
+                <div class="card inicial" style="display: block">
+                    <h3>Texto Vanilla Titulo</h3>
+                    <p>texto vanilla para quando abrir o site</p>
+                    <p>bla bla bla</p>
+                </div>
+                <div class="card nascimento">
+                    <h3>Eu nasci no dia 05/01/1998</h3>
+                    <h4>Atualmente estou com 24 anos</h4>
+                    <div class="imagens">
+                        <img src="./assets/calendario-janeiro-1998.png" alt="Calendário mostrando dia 5 de Janeiro" />
+                        <img src="./assets/mapa-brasil.png" alt="Mapa mostrando o Rio Grande do Sul em relação ao Brasil" />
+                    </div>
+                    <h3>Natural de Porto Alegre, no sul do Brasil, gaúcho de alma!</h3>
+                </div>
+                <div class="card atualmente">
+                    <h3>
+                        Atualmente estou morando em Sapucaia do Sul, <br />
+                        que fica próximo da capital Porto Alegre
+                    </h3>
+                    <img src="./assets/mapa-sapucaia.png" alt="Mapa mostrando Sapucaia do Sul em relação a Porto Alegre" />
+                </div>
+                <div class="card objetivo">
+                    <p>Meu principal objetivo é crescer e evoluir na área de desenvolvimento, pretendo colocar em prática os conhecimentos adquiridos nos últimos anos de estudo. Sendo assim, quero aprimorar minhas habilidades e me estabilizar profissionalmente.</p>
+                    <br />
+                    <p>Sempre fui apaixonado por conhecimento e tecnologia, acredito em um mundo melhor onde as pessoas utilizam todos os recursos disponíveis para o aprimoramento da sociedade como um todo, tecnologia nada mais é do que a ponte entre a evolução e o que existe atualmente da humanidade.</p>
+                </div>
+                <div class="card habilidades">
+                    <h3>As minhas Soft-Skills:</h3>
+                    <ul>
+                        <li>Autonomia Cognitiva</li>
+                        <li>Aprendizado Rápido</li>
+                        <li>Trabalho em Equipe</li>
+                        <li>Liderança</li>
+                        <li>Responsabilidade</li>
+                        <li>Pontualidade</li>
+                        <li>Fácil Adaptação com Horários</li>
+                        <li>Organização</li>
+                        <li>Disciplina</li>
+                    </ul>
+                </div>
+                <div class="card formacao">
+                    <div class="unicesumar">
+                        <h3>Ensino Superior - Bacharelado em Engenharia de Software</h3>
+                        <a href="https://www.unicesumar.edu.br/home/" target="_blank">
+                            <img id="unicesumar-foto" src="./assets/logo-unicesumar.png" alt="logo da Unicesumar" />
+                        </a>
+                        <h4>Instituição: Unicesumar</h4>
+                        <p>Localizado em São Leopoldo - RS</p>
+                        <p>Atualmente Cursando 6º Semestre</p>
+                        <p>Início em Novembro de 2018</p>
+                        <p>Conclusão em Abril de 2024</p>
+                    </div>
+                    <div>
+                        <h3>Ensino Médio e Fundamental</h3>
+                        <h4>Instituição: Colégio Coração de Maria</h4>
+                        <p>(nome atual: Escola São Francisco)</p>
+                        <p>Localizado em Esteio - RS</p>
+                        <p>Início em 2004</p>
+                        <p>Conclusão em 2014</p>
+                    </div>
+                </div>
+                <div class="card idiomas">
+                    <table id="idiomas">
+                        <tr class="card-idioma">
+                            <td style="width: 3vw"><img src="./assets/icons/icon-portuguese.png" alt="icone portugues" /></td>
+                            <td style="width: 8vw"><h3>Português</h3></td>
+                            <td><h4>Nível Fluente Nativo</h4></td>
+                        </tr>
+                        <tr class="card-idioma">
+                            <td style="width: 3vw"><img src="./assets/icons/icon-english.png" alt="icone ingles" /></td>
+                            <td style="width: 8vw"><h3>Inglês</h3></td>
+                            <td><h4>Nível Avançado</h4></td>
+                        </tr>
+                        <tr class="card-idioma">
+                            <td style="width: 3vw"><img src="./assets/icons/icon-spanish.png" alt="icone espanhol" /></td>
+                            <td style="width: 8vw"><h3>Espanhol</h3></td>
+                            <td><h4>Nível Itermediário</h4></td>
+                        </tr>
+                        <tr class="card-idioma">
+                            <td style="width: 3vw"><img src="./assets/icons/icon-germany.png" alt="icone alemao" /></td>
+                            <td style="width: 8vw"><h3>Alemão</h3></td>
+                            <td><h4>Nível Básico</h4></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="card qualificacoes">
+                    <div>
+                        <h3>Técnicas:</h3>
+                        <ul>
+                            <li>Manuseio de Hardware (limpeza / manutenção preventiva)</li>
+                            <li>Formatação e Backup</li>
+                            <li>Sistemas Operacionais</li>
+                            <li>Maquinas Virtuais</li>
+                            <li>Edição de Imagem e Vídeo</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Programação:</h3>
+                        <ul>
+                            <li>Linguagem C (faculdade)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React.JS</li>
+                            <li>React Native</li>
+                            <li>Node.JS</li>
+                            <li>My SQL</li>
+                            <li>GIT</li>
+                            <li>GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card empregoatual">
+                    <p>ainda estou sem emprego :/</p>
+                </div>
+                <div class="card empregosanteriores">
+                    <ul>
+                        <li>
+                            <div>
+                                <img src="./assets/icons/logo-datametrica.png" alt="Logo Datamétrica" />
+                                <h3>Datamétrica</h3>
+                                <h4>São Leopoldo - RS</h4>
+                            </div>
+                            <p>Período: Janeiro de 2021 até Abril de 2022</p>
+                            <p>Cargo: Operador de Telemarketing</p>
+                            <p>Atividades: Atendimento ao cliente, Operação de Sistemas</p>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./assets/icons/logo-tracktus.png" alt="Logo Tracktus" />
+                                <h3>Tracktus</h3>
+                                <h4>Esteio - RS</h4>
+                            </div>
+                            <p>Período: Fevereiro de 2017 até Janeiro de 2020</p>
+                            <p>Cargo: Operador de Sistemas & Suporte de Atendimento</p>
+                            <p>Atividades: Atendimento ao cliente, suporte via telefone e e-mail, operação de sistemas de monitoramento, cadastro de informações obtidas de técnicos em campo; Primeiro ano de trabalho no período noturno (escala 12/36) e os outros dois anos realizados no período diurno (escala 5/2)</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card certificados">
+                    <div class="area-botoes-certificados">
+                        <div class="botoes-certificados">&lt;</div>
+                        <div class="botoes-certificados">&gt;</div>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <img src="./assets/certificados/b7web-certificado-javascript_page-0001.jpg" alt="B7web Javascript" />
+                        </li>
+                        <li>
+                            <img src="./assets/certificados/kenzie-amazonia_page-0001.jpg" alt="B7web Javascript" />
+                        </li>
+                        <li>
+                            <img src="./assets/certificados/kenzie-codigo-da-virada_page-0001.jpg" alt="B7web Javascript" />
+                        </li>
+                        <li>
+                            <img src="./assets/certificados/kenzie-maratona-da-programacao_page-0001.jpg" alt="B7web Javascript" />
+                        </li>
+                        <li>
+                            <img src="./assets/certificados/kenzie-programar-para-evoluir_page-0001.jpg" alt="B7web Javascript" />
+                        </li>
+                        <li>
+                            <img src="./assets/certificados/certificado-Ozielzinho_page-0001.jpg" alt="B7web Javascript" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
