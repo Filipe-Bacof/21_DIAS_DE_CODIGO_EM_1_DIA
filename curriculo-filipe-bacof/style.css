@@ -66,3 +66,7 @@ nav {
   margin: 0px 30px 0px 0px;
   /* top right bottom left */
 }
+
+.certificados ul li img {
+  width: 70vh;
+}
