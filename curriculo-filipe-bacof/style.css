@@ -153,6 +153,10 @@ section {
     padding: 2.5vh;
 }
 
+#idiomas {
+    margin-left: 1vw;
+}
+
 .card-idioma {
     padding: 10px;
     margin-bottom: 20px;
@@ -195,16 +199,10 @@ section {
     color: #252525;
 }
 
+#informacoes .certificados ul li img {
+    width: 41vw;
+}
+
 .card {
     display: none;
-}
-
-#idiomas {
-    display: flex;
-    flex-direction: column;
-}
-
-.card-idioma {
-    display: flex;
-    padding: 2px;
 }
