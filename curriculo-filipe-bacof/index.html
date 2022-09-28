@@ -30,16 +30,30 @@
     <!-- controles na tela e ao lado ficarão as informações -->
     <section>
       <nav id="controles">
-        <button class="nascimento">Data de Nascimento</button>
-        <button class="atualmente">Onde Moro Atualmente</button>
-        <button class="objetivo">Objetivo</button>
-        <button class="habilidades">Habilidades</button>
-        <button class="formacao">Formação</button>
-        <button class="idiomas">Idiomas</button>
-        <button class="qualificacoes">Qualificações</button>
-        <!-- <button class="empregoatual">Emprego Atual</button>  QUERO MUITO DESCOMENTAR ESSA LINHA-->
-        <button class="empregosanteriores">Empregos Anteriores</button>
-        <button class="certificados">Certificados</button>
+        <button class="botao" onclick="mostrar('nascimento')">
+          Data de Nascimento
+        </button>
+        <button class="botao" onclick="mostrar('atualmente')">
+          Onde Moro Atualmente
+        </button>
+        <button class="botao" onclick="mostrar('objetivo')">Objetivo</button>
+        <button class="botao" onclick="mostrar('habilidades')">
+          Habilidades
+        </button>
+        <button class="botao" onclick="mostrar('formacao')">Formação</button>
+        <button class="botao" onclick="mostrar('idiomas')">Idiomas</button>
+        <button class="botao" onclick="mostrar('qualificacoes')">
+          Qualificações
+        </button>
+        <button class="botao" onclick="mostrar('empregoatual')">
+          Emprego Atual
+        </button>
+        <button class="botao" onclick="mostrar('empregosanteriores')">
+          Empregos Anteriores
+        </button>
+        <button class="botao" onclick="mostrar('certificados')">
+          Certificados
+        </button>
       </nav>
       <div class="informações">
         <div class="card nascimento" style="display: none">
@@ -158,8 +172,7 @@
           </ul>
         </div>
         <div class="card empregoatual" style="display: none">
-          <!-- <h3>Atualmente Trabalhando na `${ZALLPY}`</h3>
-          <p>esperando me responderem</p> -->
+          <p>ainda estou sem emprego :/</p>
         </div>
         <div class="card empregosanteriores" style="display: none">
           <ul>

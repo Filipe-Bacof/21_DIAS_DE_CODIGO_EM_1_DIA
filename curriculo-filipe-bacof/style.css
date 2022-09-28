@@ -9,8 +9,8 @@ header {
 }
 
 #area-da-foto {
-  width: 40vh;
-  height: 40vh;
+  width: 35vh;
+  height: 35vh;
   margin-bottom: 3vh;
 }
 
@@ -30,8 +30,9 @@ header {
 
 button {
   font-size: 2vh;
-  height: 6vh;
+  height: 5vh;
   width: 30vh;
+  border-radius: 5%;
 }
 
 #texto-justificado {
