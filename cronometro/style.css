@@ -1,23 +1,33 @@
-.conteudo {
-  text-align: center;
-  margin-top: 10vh;
-  background-color: #ccc;
+body {
+    background-color: black;
 }
 
-.cronometro {
-  font-size: 30vh;
-  text-shadow: -2px 2px grey;
+div {
+    text-align: center;
 }
 
-.controles {
-  justify-content: center;
-  display: flex;
+h1 {
+    color: white;
 }
 
-.botao {
-  width: 60px;
-  background-color: #888;
-  padding: 10px;
-  margin: 10px;
-  cursor: pointer;
+button {
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.start-btn {
+    background-color: green;
+}
+
+.pause-btn {
+    background-color: grey;
+}
+.stop-btn {
+    background-color: red;
 }
