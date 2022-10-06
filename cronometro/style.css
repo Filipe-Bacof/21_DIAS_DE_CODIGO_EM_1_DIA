@@ -4,6 +4,7 @@ body {
 
 div {
     text-align: center;
+    margin-top: 30vh;
 }
 
 h1 {
@@ -15,6 +16,7 @@ button {
     width: 5.5em;
     border: none;
     color: white;
+    font-weight: bold;
 }
 
 button:hover {
@@ -26,7 +28,7 @@ button:hover {
 }
 
 .pause-btn {
-    background-color: grey;
+    background-color: orange;
 }
 .stop-btn {
     background-color: red;
